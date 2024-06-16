@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling Effect Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h2 class="logo">RM</h2>
+        <nav class="navigation">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </nav>   
+        <div class="menu-toggle" onclick="toggleMenu()"></div>
+    </header>
+
+    <section class="parallax">
+        <img src="hill1.png" id="hill1">
+        <img src="hill2.png" id="hill2">
+        <img src="hill3.png" id="hill3">
+        <img src="hill4.png" id="hill4">
+        <img src="hill5.png" id="hill5">
+        <img src="tree.png" id="tree">
+        <img src="leaf.png" id="leaf">
+        <img src="plant.png" id="plant">
+        <h2 id="text">Welcome !!!</h2>
+    </section>
+
+    <section class="sec">
+        <h2>Hi🖐!This is Richa Mishra</h2>
+        <p>
+            I am currently studying in 2nd year, B.Tech CSE, IET Lucknow. This is my portfolio website prepared using HTML, CSS and JavaScript. 
+            <br>
+            I am a dedicated UI/UX designer driven by a profound passion for blending creativity with functionality. This fascination led me to pursue a career where I could not only express my creativity but also make a tangible impact on how users interact with digital interfaces.
+            <br><br>
+            As I continue to evolve in this dynamic field, I am excited about the possibilities that lie ahead. I am constantly learning from industry trends, experimenting with new design techniques, and pushing the boundaries of what's possible in UI/UX design. My goal is to continue creating meaningful experiences that leave a lasting impression on users and clients alike.
+            <br><br>
+            I am eagerly looking for all possible opportunities on my way. Being a dedicated, disciplined and a team guy, I would definitely be an asset for the organization.<br><br>
+            Thank You for letting me have an opportunity to build something extraordinarily great stuff with you people !!!
+            <br><br><br>
+            Contact Me: 
+            <br>
+            📞 : 7457918981
+            <br>
+            ✉ : rmishraabc333@gmail.com
+            
+        </p>
+    </section>
+    <script src="script.js" defer></script>
+    <script>
+        function toggleMenu() {
+            var navigation = document.querySelector('.navigation');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
